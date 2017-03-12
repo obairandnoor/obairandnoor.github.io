@@ -1,0 +1,524 @@
+/*
+	Theme Name: Lantern - Responsive Wedding Template
+	Theme URI: http://themeforest.net/user/lanternthemes
+	Description: This css file is for light template layout alignments
+	Version: 1.0
+	Author: Lantern Themes
+	Author URI: http://themeforest.net/user/lanternthemes
+	Tags:
+	
+	---------------------------
+	DARK COLOR TEMPLATE STYLES
+	---------------------------
+	
+	TABLE OF CONTENTS
+	---------------------------
+	 01. Global Styles
+	 02. Navigation Content Styles
+	 03. Header Area Styles
+	 04. About Us Styles
+	 05. Wedding Invitation Styles
+	 06. Our Family Styles
+	 07. Our Love Story Styles
+	 08. Photo Gallery Styles
+	 09. Blog Content Styles
+	 10. RSVP Styles
+	 11. Contact Us Styles
+	 12. Footer Styles
+*/
+
+/* ====================================================== */
+/* 01. Global Styles                                      */
+/* ====================================================== */
+
+html, body {
+    color: #666666;
+}
+h1 {
+    color: #333333;
+}
+h2 {
+    color: #333333;
+	text-shadow:0 1px 1px rgba(251, 251, 251, 0.5);
+}
+h3 {
+    color: #333333;
+	text-shadow:0 1px 1px rgba(251, 251, 251, 0.5);
+}
+h4 {
+    color: #333333;
+}
+h5 {
+    color: #333333;
+}
+h6 {
+    color: #333333;
+}
+p {
+    color: #ffffff;
+}
+.small_btn, .small_btn:focus {
+    background-color: #333333;
+	color:#ffffff;
+}
+.small_btn:hover, .small_btn:focus {
+    color: #333333;
+    background-color: #e1e1e1;
+}
+
+/* ====================================================== */
+/* 02. Navigation Content Styles                          */
+/* ====================================================== */
+
+.sidebar-nav li {
+	border-color:rgba(251,251,251,0.1);
+}
+.sidebar-nav li a {
+  color: #999999;
+}
+.sidebar-nav li a:hover {
+	background: rgba(0,0,0,0.2);
+	color: #ffffff;
+}
+#menu-toggle {
+	color:#ffffff;
+	background-color:rgba(0,0,0,0.2);
+}
+#menu-toggle:hover {
+  color:#ffffff;
+}
+#menu-close {
+	color:#ffffff;
+	border:1px solid #ffffff;
+}
+#sidebar-wrapper.active {
+	background:rgba(0,0,0,0.9);
+	border-left:1px solid #333333;
+}
+.our_family_cont h2, .our_family_cont h3, .our_family_cont p, .lovestory_bottom_parallax h2, .lovestory_bottom_parallax p, .wedding_invitation h2, .wedding_invitation p, .banner_timer ul li, .banner_timer ul li span {
+	color:#ffffff;
+	text-shadow:0 1px 1px rgba(0,0,0,0.5);
+}
+
+/* ====================================================== */
+/* 03. Header Area Styles                                 */
+/* ====================================================== */
+
+.marriage_banner {
+    background:url(../img/arrow-pink1.png) repeat-x bottom;
+	background-color:rgba(0,0,0,0.2);
+}
+.marriage_banner h1 {
+    color: #ffffff;
+}
+.marriage_banner h3 {
+    color: #FFFFFF;
+}
+.banner-line h2 {
+	color:#ffffff;
+	text-shadow:0 0px 0px rgba(251, 251, 251, 0);
+}
+.marriage_banner p {
+    color: #FFFFFF;
+}
+.banner_timer ul li {
+    color: #ffffff;
+	background:rgba(244,68,130,0.8);
+}
+.logo_top {
+    color: #ffffff;
+}
+.logo_top a {
+    color: #ffffff;
+}
+.logo_top a:hover, .logo_top a:hover {
+    color: #ffffff;
+}
+.top_arrow a {
+    color: #ffffff;
+    background-color: rgba(244,68,130,0.6);
+}
+.top_arrow a:hover {
+    background-color: rgba(244,68,130,0.9);
+	color:#ffffff;
+}
+.top-scroll a {
+    color: #333333;
+}
+
+/* ====================================================== */
+/* 04. About Us Styles                                    */
+/* ====================================================== */
+
+.about_us {
+    background-color: #f44482;
+}
+.about_us h1 {
+    color: #333333;
+	text-shadow:0 1px 1px rgba(251,251,251,0.5);
+}
+.about_us h2 {
+    color: #333333;
+	text-shadow:0 1px 1px rgba(251,251,251,0.5);
+}
+.about_us p {
+    color: #ffffff;
+}
+.about_bottom_bg {
+    background:url(../img/arrow-pink1.png) repeat-x bottom;
+}
+.latest_sermons .groom .img img, .latest_sermons .bride .img img {
+	border:10px solid #ffffff;
+}
+.recent_sermons .image img {
+    border: 5px solid #FFFFFF;
+}
+.recent_sermons .content {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+/* ====================================================== */
+/* 05. Wedding Invitation Styles                          */
+/* ====================================================== */
+
+.wedding_invitation {
+    background: url("../img/parallax06.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+}
+.wedding_invitation_parallax {
+    background:url(../img/arrow-pink.png) repeat-x top scroll rgba(0,0,0,0.9);
+}
+.wedding_invitation_parallax h3 {
+	color:#ffffff;
+	text-shadow:0 0px 0px rgba(251, 251, 251, 0);
+}
+.wedding_invitation .thanks_cont p {
+	color:#ffffff;
+}
+
+/* ====================================================== */
+/* 06. Our Family Styles                                  */
+/* ====================================================== */
+
+.our_family_main {
+    background-color: #f44482;
+}
+.our_family_cont {
+	background-color:rgba(244,68,130,0.7);
+}
+.our_family_cont h3 {
+    color: #333333;
+	text-shadow:0 1px 1px rgba(251, 251, 251, 0.5);
+}
+.family_botom_parallax {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+}
+.family_member img {
+	border:8px solid rgba(251,251,251,0.3);
+}
+.family_member .hover-ef {
+	background:rgba(0,0,0,0.9);
+}
+.family_member:hover .hover-ef {
+    transform: scale(1);
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform: scale(1);
+    transform:all 300ms linear 0s;
+    -webkit-transform:all 300ms linear 0s;
+    -moz-transform:all 300ms linear 0s;
+    -ms-transform:all 300ms linear 0s;
+	display:block;
+}
+.family_member h4 {
+    color: #333333;
+	text-shadow:0 1px 1px rgba(251, 251, 251, 0.5);
+}
+.family_member p {
+    color: #333333;
+	text-shadow:0 1px 1px rgba(251, 251, 251, 0.5);
+}
+.family_member .social li a {
+    color: #333333;
+    background: none repeat scroll 0 0 #f44482;
+	text-shadow:0 1px 1px rgba(251, 251, 251, 0.5);
+}
+.family_member.social li a:hover {
+    color: #333333;
+    background: none repeat scroll 0 0 #CCCCCC;
+}
+.social li a {
+    color: #FFFFFF;
+    background: none repeat scroll 0 0 #333333;
+}
+.social li a:hover {
+    color: #333333;
+    background: none repeat scroll 0 0 #CCCCCC;
+}
+
+.family-tab-cont {
+	background:url(../img/line.png) repeat-x center bottom;
+}
+.family-tab-cont .tab-btns {
+	background:url(../img/line.png) repeat-x center center;
+}
+.family-tab-cont .tab-btns li a {
+	border:8px solid rgba(251,251,251,0.3);
+}
+.family-tab-cont .tab-btns li a:hover, .family-tab-cont .tab-btns li a.active {
+	border:8px solid rgba(251,251,251,0.9);
+}
+.family-tab-cont .tab-btns li a:hover .plus, .family-tab-cont .tab-btns li a.active .plus {
+	text-shadow:0 1px 1px rgba(251, 251, 251, 0.5);
+	color:#333333
+}
+
+/* ====================================================== */
+/* 07. Our Love Story Styles                              */
+/* ====================================================== */
+
+.lovestory_parallax {
+    background: url("../img/parallax07.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+}
+.lovestory_bottom_parallax {
+    background:rgba(0,0,0,0.9) url(../img/arrow-pink.png) repeat-x top;
+}
+.lovestory_bottom_parallax h3 {
+	color:#ffffff;
+	text-shadow:0 0px 0px rgba(251, 251, 251, 0);
+}
+.lovestory_bottom_bg {
+    background:url(../img/arrow-pink1.png) repeat-x bottom;
+}
+.lovestory_bottom_parallax .content_white {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+}
+
+/* ====================================================== */
+/* 08. Photo Gallery Styles                               */
+/* ====================================================== */
+
+.gallery_outer {
+    background-color: #f44482;
+}
+.option-set li {
+    color: #333333;
+}
+.option-set li a {
+    color: #333333;
+}
+.option-set li a:hover, .option-set li a.selected {
+    background-color: #333333;
+}
+
+/* ====================================================== */
+/* 09. Blog Content Styles                                */
+/* ====================================================== */
+
+.blog_outer {
+    background-color: #f44482;
+}
+.blog_outer h3 {
+	text-shadow:0 1px 1px rgba(251, 251, 251, 0.5);
+}
+
+/* ====================================================== */
+/* 10 RSVP Styles                                        */
+/* ====================================================== */
+
+.rsvp_main {
+    background: url("../img/parallax04.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+}
+.rsvp_main p {
+	color:#ffffff;
+}
+.rsvp_main_parallax {
+    background:url(../img/arrow-pink.png) repeat-x top rgba(0,0,0,0.9);
+}
+.rsvp_bottom_bg {
+    background:url(../img/arrow-pink1.png) repeat-x bottom;
+}
+.rsvp_main_parallax h2 {
+	color:#ffffff;
+	text-shadow:0 0 0 rgba(251, 251, 251, 0);
+}
+.rsvp_main_parallax h4 {
+	color:#ffffff;
+}
+.rsvp_outer {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+#rsvp-form hr {
+	background:none;
+	border:0;
+	border-bottom:1px solid rgba(251,251,251,0.1);
+}
+.gift-logos {
+	padding:30px 0 30px 0;
+	margin:20px 0 50px 0;
+	list-style:none;
+	background:rgba(251,251,251,0.3);
+}
+
+/* ====================================================== */
+/* 11. Contact Us Styles                                  */
+/* ====================================================== */
+
+.input_text_w {
+    color: #999999;
+	background:rgba(251,251,251,0.2);
+}
+.textarea_text_w {
+    color: #999999;
+}
+
+.contact_address_cont {
+    background: none repeat scroll 0 0 #f44482;
+}
+.contact_address_cont p {
+    color: #FFFFFF;
+}
+.contact_address {
+    color: #FFFFFF;
+}
+.contact_address i {
+    color: #333333;
+	text-shadow:0 1px 1px rgba(251, 251, 251, 0.5);
+}
+.contact_address a {
+    color: #FFFFFF;
+}
+.contact_content {
+    background: url("../img/parallax01.jpg") no-repeat fixed center center;
+}
+.contact_content_parallax {
+    background:#f44482;
+}
+.contact_content_parallax h3 {
+	color:#333333;
+}
+#contact-form {
+    background: none repeat scroll 0 0 rgba(244,68,130,0.8);
+}
+.input_text {
+	background-color:rgba(0,0,0,0.2);
+    color: #cccccc;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+.input_text_w {
+    border-color: rgba(0, 0, 0, 0.2);
+}
+.textarea_text {
+	background-color:rgba(0,0,0,0.2);
+    color: #cccccc;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+.textarea_text_w {
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Placeholder Property */
+
+.input_text::input-placeholder { color:#cccccc; opacity:1; }
+.input_text:input-placeholder { color:#cccccc; opacity:1; }
+.input_text:-webkit-input-placeholder { color:#cccccc; opacity:1; }
+.input_text::-webkit-input-placeholder { color:#cccccc; opacity:1; }
+.input_text:-moz-placeholder { color:#cccccc; opacity:1; } /* FF 4-18 */
+.input_text::-moz-placeholder { color:#cccccc; opacity:1; } /* FF 19+ */
+.input_text:focus:input-placeholder { color:#cccccc; opacity:0; }
+.input_text:focus::input-placeholder { color:#cccccc; opacity:0; }
+.input_text:focus:-webkit-input-placeholder { color:#cccccc; opacity:0; }
+.input_text:focus::-webkit-input-placeholder { color:#cccccc; opacity:0; }
+.input_text:focus:-moz-placeholder { color:#cccccc; opacity:0; } /* FF 4-18 */
+.input_text:focus::-moz-placeholder { color:#cccccc; opacity:0; } /* FF 19+ */
+
+.textarea_text::input-placeholder { color:#cccccc; opacity:1; }
+.textarea_text:input-placeholder { color:#cccccc; opacity:1; }
+.textarea_text:-webkit-input-placeholder { color:#cccccc; opacity:1; }
+.textarea_text::-webkit-input-placeholder { color:#cccccc; opacity:1; }
+.textarea_text:-moz-placeholder { color:#cccccc; opacity:1; } /* FF 4-18 */
+.textarea_text::-moz-placeholder { color:#cccccc; opacity:1; } /* FF 19+ */
+.textarea_text:focus:input-placeholder { color:#cccccc; opacity:0; }
+.textarea_text:focus::input-placeholder { color:#cccccc; opacity:0; }
+.textarea_text:focus:-webkit-input-placeholder { color:#cccccc; opacity:0; }
+.textarea_text:focus::-webkit-input-placeholder { color:#cccccc; opacity:0; }
+.textarea_text:focus:-moz-placeholder { color:#cccccc; opacity:0; } /* FF 4-18 */
+.textarea_text:focus::-moz-placeholder { color:#cccccc; opacity:0; } /* FF 19+ */
+
+
+.input_text_w::input-placeholder { color:#999999; opacity:1; }
+.input_text_w:input-placeholder { color:#999999; opacity:1; }
+.input_text_w:-webkit-input-placeholder { color:#999999; opacity:1; }
+.input_text_w::-webkit-input-placeholder { color:#999999; opacity:1; }
+.input_text_w:-moz-placeholder { color:#999999; opacity:1; } /* FF 4-18 */
+.input_text_w::-moz-placeholder { color:#999999; opacity:1; } /* FF 19+ */
+.input_text_w:focus:input-placeholder { color:#999999; opacity:0; }
+.input_text_w:focus::input-placeholder { color:#999999; opacity:0; }
+.input_text_w:focus:-webkit-input-placeholder { color:#999999; opacity:0; }
+.input_text_w:focus::-webkit-input-placeholder { color:#999999; opacity:0; }
+.input_text_w:focus:-moz-placeholder { color:#999999; opacity:0; } /* FF 4-18 */
+.input_text_w:focus::-moz-placeholder { color:#999999; opacity:0; } /* FF 19+ */
+
+.input_button {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    color: #CCCCCC;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+.input_button:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    color: #CCCCCC;
+}
+.input_button_w {
+    background-color: #f44482;
+    color: #ffffff;
+}
+.input_button_w:hover {
+    background-color: #e82369;
+    color: #ffffff;
+}
+.contact_message {
+    color: #FF0000;
+}
+#contact-form .error, #rsvp-form .error {
+    border: 1px solid #FF0000;
+}
+#contact-error, #rsvp-error {
+    color: #FF0000;
+}
+#contact-loading, #contact-success, #contact-failed {
+    background-color: rgba(251, 251, 251, 0.3);
+}
+#contact-loading, #contact-failed {
+    color: #FF0000;
+}
+#contact-success {
+    color: #FF0000;
+}
+
+/* ====================================================== */
+/* 12. Footer Styles                                      */
+/* ====================================================== */
+
+footer {
+    background: none repeat scroll 0 0 #101010;
+    color: #797979;
+}
+.footer_icons a {
+    background: none repeat scroll 0 0 #333333;
+    color: #101010;
+}
+.footer_icons a:hover {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+footer p {
+    color: #666666;
+}
