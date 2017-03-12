@@ -4,7 +4,7 @@
 // Count down
 
 setInterval(function(){
-    var future = new Date("July 08 2017 00:00:00 GMT");  // date to count down
+    var future = new Date("July 09 2017 00:00:00 GMT");  // date to count down
     var now = new Date();
     var difference = Math.floor((future.getTime() - now.getTime()) / 1000);
     
