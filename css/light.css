@@ -113,15 +113,30 @@ p {
 .marriage_banner p {
     color: #000000;
 }
+.marriage_banner a{
+    color: #000000;
+}
+.marriage_banner .content_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marriage_banner .content_links > div {
+  flex: 1; /*grow*/
+}
 .banner_timer ul li {
     color: #ffffff;
-	background:rgba(244,68,130,0.8);
+	background:#b8bad1;
 }
 .logo_top {
     color: #000000;
 }
 .logo_top a {
     color: #000000;
+}
+.logo_top h1 {
+    font-size: 72px;
 }
 .logo_top a:hover, .logo_top a:hover {
     color: #000000;
@@ -182,7 +197,7 @@ p {
     color: #000000;
 }
 .wedding_invitation_parallax {
-    background:url(../img/arrow.png) repeat-x top scroll rgba(244,68,130,0.7);
+    background:url(../img/arrow.png) repeat-x top scroll rgba(184, 186, 209,0.7);
 }
 /*.wedding_invitation .thanks_cont p {
 	color:#000000;
@@ -291,7 +306,7 @@ p {
     /*background: url("../img/parallax04.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);*/
 }
 .rsvp_main_parallax {
-    background:rgba(244,68,130,0.9) url(../img/arrow.png) repeat-x top;
+    background:rgba(184, 186, 209,0.9) url(../img/arrow.png) repeat-x top;
 }
 .rsvp_bottom_bg {
     background:url(../img/arrow1.png) repeat-x bottom;
