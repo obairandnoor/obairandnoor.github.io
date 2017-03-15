@@ -152,6 +152,11 @@ function contact_submit()
 
 function rsvp_submit()
 {
+	// var baseURL = 'https://docs.google.com/forms/d/e/1FAIpQLSex8PTw5M6p1-eWM7PdS954ISJ1RhTSRkVSyC8yHZKoDCPUSw/formResponse?';
+	// var submitRef = $('[role="button"]');
+	// var formName = encodeURIComponent($('#entry.1534581848').val());
+	// var formEvents = 
+	
 	$('#rsvp-error').hide();
 	var submit_flag = 'yes';
 	var rsvp_name = $('#rsvp-name').val();

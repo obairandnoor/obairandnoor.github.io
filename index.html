@@ -70,9 +70,9 @@
         </div>
         <!-- <div class="banner-line"><h2><span>We inviting you</span> and your family on <span>20 December 2014</span></h2><br></div> -->
         <div class="content_links">
-            <div class="content_link"><h4><a href="#events_section">Events</i></a></h4></div>
-            <div class="content_link"><h4><a href="#lodging_section">Lodging</i></a></h4></div> 
-            <div class="content_link"><h4><a href="#rsvp">Rsvp</i></a></h4></div>
+            <div class="content_link"><h4><a href="#events_section"><i><u>Events</u></i></a></h4></div>
+            <div class="content_link"><h4><a href="#lodging_section"><i><u>Lodging</u></i></a></h4></div> 
+            <div class="content_link"><h4><a href="#rsvp"><i><u>Rsvp</u></i></a></h4></div>
         </div>
         <!-- <div class="top_arrow"><a href="#events_section"><i class="fa fa-chevron-down"></i></a></div> -->
       </div>
@@ -140,65 +140,34 @@
             <div class="rsvp_main_parallax">
                 <div class="rsvp_bottom_bg">
                     <div class="container">
-                        <div class="row text-center">
-                            <form method="post">
-                                <h2 class="text-center animated" data-animation="fadeIn" data-animation-delay="100">R.S.V.P.</h2>
-                                <div class="devider_main"><img src="img/devider-gray.jpg" alt=""></div>
-                                <p class="rsvp-p animated" data-animation="fadeIn" data-animation-delay="100">Please R.S.V.P. before June 1, 2017.</p>
-                                <div class="row animated" id="rsvp-form" data-animation="fadeIn" data-animation-delay="100">
-                                <div class="col-md-6"><input class="input_text_w slide_up" type="text" name="rsvp-name" id="rsvp-name" value="" placeholder="Your Name *"></div>
-                                <div class="col-md-6"><input class="input_text_w slide_up" type="text" name="rsvp-event" id="rsvp-event" value="" placeholder="Which event(s) will you be attending? *"></div>
-                                <!-- <div class="col-md-6"><input class="input_text_w slide_up" type="text" name="rsvp-email" id="rsvp-email" value="" placeholder="Your Email *"></div> -->
-                                <div class="col-md-6"> 
-                                    <select name="rsvp-persons" id="rsvp-persons" class="input_text_w slide_up" >
-                                                <option value="">How many in your party (ages 3+)?</option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
-                                                <option value="7">7</option>
-                                                <option value="8">8</option>
-                                                <option value="9">9</option>
-                                                <option value="10">10</option>
-                                    </select>
-                                </div>
-                                        <div class="col-md-6">
-                                        <select name="rsvp-children" id="rsvp-children" class="input_text_w slide_up">
-                                            <option value="">How many children under age 3 in your party?</option>
-                                            <option value="0">0</option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                        </select>
+                        <div class="row text-center">  
+                            <h2 class="text-center animated" data-animation="fadeIn" data-animation-delay="100">R.S.V.P.</h2>
+                            <div class="devider_main"><img src="img/devider-gray.jpg" alt=""></div>
+                            <p class="rsvp-p animated" data-animation="fadeIn" data-animation-delay="100">Please R.S.V.P. before June 1, 2017.</p>
+                            <div class="row animated" id="rsvp-form" data-animation="fadeIn" data-animation-delay="100">
+                                <script type="text/javascript">var submitted=false;</script>
+                                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./thankyou.html';}"></iframe>
+                                <form action="https://docs.google.com/forms/d/e/1FAIpQLSex8PTw5M6p1-eWM7PdS954ISJ1RhTSRkVSyC8yHZKoDCPUSw/formResponse?embedded=true" method="POST" id="mG61Hd" target="hidden_iframe" onsubmit="submitted=true;">
+                                    <div class="col-md-6">
+                                        <input type="text" class="input_text_w slide_up" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Name" aria-describedby="i.desc.80379032 i.err.80379032" name="entry.1534581848" value="" dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Your Name *">
                                     </div>
-                                   
-                                    <!-- <div class="col-md-6">
-                                        <select multiple name="rsvp-wedding" id="rsvp-wedding" class="input_text_w slide_up">
-                                            <option value="Wedding Ceremory">Mehndi</option>
-                                            <option value="Wedding Party">Nikkah &amp; Barat </option>
-                                            <option value="Wedding Photo Shoot">Valima</option>
-                                        </select>
-                                    </div> -->
+                                    <div class="col-md-6">
+                                        <input type="text" class="input_text_w slide_up" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Events Attending" aria-describedby="i.desc.1565818969 i.err.1565818969" name="entry.376111853" value="" dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Which event(s) will you be attending? *">
+                                    </div>            
+                                    <div class="col-md-6"> 
+                                        <input type="text" class="input_text_w slide_up" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="How many in party (over age 3)?" aria-describedby="i.desc.1747285729 i.err.1747285729" name="entry.1043060838" value="" dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="How many in your party (ages 3+)">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="input_text_w slide_up" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="How many children (under age 3)?" aria-describedby="i.desc.141524652 i.err.141524652" name="entry.1894993768" value="" dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="How many children under age 3 in your party?">
+                                    </div>                            
                                     <div class="col-md-12" id="rsvp-error"></div>
-                                    <div class="col-md-12"><button class="input_button_w slide_up" id="rsvp-submit">I'm Attending</button></div>
-                                </div>
-                                <p>The bride and groom kindly request no boxed gifts.</p>
-                                <div class="row" id="rsvp-loading">
-                                loading...
-                                </div>
-                                <div class="row" id="rsvp-success">
-                                 Thank you for your response!
-                                </div>
-                                <div class="row" id="rsvp-failed">
-                                 Please try submitting again.
-                                </div>
-                            </form>
-                        </div>
-                        
+                                    <div class="col-md-12"><input type="submit" class="input_button_w slide_up" value="Submit"></div> 
+                            </div>
+                            <p>The bride and groom kindly request no boxed gifts.</p>
+                            <div class="row" id="rsvp-loading">loading...</div>
+                            <div class="row" id="rsvp-success">Thank you for your response!</div>
+                            <div class="row" id="rsvp-failed">Please try submitting again. </div>  
+                        </div>  
                     </div>
                 </div>
             </div>
@@ -211,17 +180,6 @@
     <footer>
       <div class="container">
         <div class="row">
-<!--             <div class="col-md-6 col-md-offset-3 text-center">
-                <ul class="list-inline footer_icons">
-                    <li><a href="#"><i class="fa fa-skype fa-3x"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook fa-3x"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus fa-3x"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dropbox fa-3x"></i></a></li>
-                </ul>
-                <p>Copyright &copy; 201. All rights reserved</p>
-            </div> -->
         </div>
       </div>
       <div class="top-scroll"><a href="#top"><i class="fa fa-chevron-up"></i></a></div>
